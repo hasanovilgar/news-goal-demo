@@ -1,0 +1,45 @@
+img{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    .content {
+      width: 100% !important;
+    }
+    .right-side {
+      width: 100% !important;
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+
+  .content {
+    width: 70%;
+    padding: 10px;
+    .transfer-group{
+      display: flex;
+      margin-top: 25px;
+      .transfer-content{
+        width: 50%;
+        padding-right: 10px;
+      }
+      .match-preview-content{
+        width: 50%;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .right-side {
+    width: 30%;
+    padding: 10px;
+  }
+}

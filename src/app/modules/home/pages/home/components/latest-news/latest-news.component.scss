@@ -1,0 +1,26 @@
+.news-row{
+  span{
+    background: red;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    min-width: 60px;
+  }
+  label{
+    margin-left: 15px;
+  }
+  &:nth-child(2n){
+    background-color: #d0d0d0;
+  }
+  &:last-child{
+    border-bottom: 0;
+  }
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid dimgray;
+}
+
+

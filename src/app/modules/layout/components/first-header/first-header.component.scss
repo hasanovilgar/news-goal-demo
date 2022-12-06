@@ -1,0 +1,17 @@
+h2 {
+  text-decoration: underline;
+
+  span {
+    color: blue;
+  }
+}
+
+.first-header {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  flex-wrap: wrap;
+}

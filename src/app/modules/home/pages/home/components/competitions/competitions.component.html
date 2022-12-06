@@ -1,0 +1,31 @@
+<div class="card">
+  <div class="card-header">
+    <p>Competitons</p>
+  </div>
+  <div class="card-body">
+    <div class="btn-group">
+      <button>Most Pop</button>
+      <button>No Most Pop</button>
+    </div>
+
+    <select> <option>UEFA Campion Liga</option> </select>
+    <div class="next-prev">
+      <i class="fa-solid fa-caret-left"></i>
+      <p>Example</p>
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+
+    <div class="competitons-rows">
+      <div class="competitons-row" *ngFor="let competition of competitions">
+        <img src="{{competition.flag}}">
+        <label>{{competition.country}}</label>
+        <label>{{competition.time}}</label>
+        <label>{{competition.country2}}</label>
+        <img src="{{competition.flag2}}">
+      </div>
+      <div class="btn">
+        <button>No Most Pop</button>
+      </div>
+    </div>
+  </div>
+</div>

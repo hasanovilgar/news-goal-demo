@@ -1,0 +1,46 @@
+.section-title{
+  color: #01a9c7;
+  hr{
+    background-color: #eec833;
+    width: 57%;
+  }
+}
+img{
+  width: 100%;
+  height: 290px;
+}
+p{
+  font-weight: bold;
+  text-align: center;
+}
+.transfer-rows{
+  .transfer-row{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    img{
+      height: 100px;
+      margin-right: 15px;
+      width: 100px;
+      flex: none;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 5px;
+
+    }
+    .transfer-info{
+      h2{
+        margin: 0;
+        font-size: 15px;
+      }
+    }
+  }
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+.transfer-group{
+  margin-top: 30px;
+}
+

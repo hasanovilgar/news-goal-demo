@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid dimgray;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: dimgrey;
+
+  .card-header {
+    height: 30px;
+    background-color: dimgrey;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .card-body {
+
+  }
+}
+
+// owl carousel
+.owl-dots {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+
+  .owl-dot {
+    span {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 2px !important;
+      background-color: white !important;
+      margin: 5px 2px !important;
+    }
+
+    &.active {
+      span {
+        background: yellow !important;
+      }
+    }
+  }
+}
+
+// end owl carousel
+
+.section-title{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  hr{
+    width: 85%;
+    margin: 0;
+  }
+}
+
+

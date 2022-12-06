@@ -1,0 +1,89 @@
+.competitons-row{
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding: 4px 10px;
+  img{
+    width: 40px;
+    height: 30px;
+  }
+  &:hover{
+    background-color: #ff9800;
+  }
+
+}
+.card-body{
+  background-color: black;
+  padding: 20px;
+  .competitons-rows{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  .btn{
+    text-align: center;
+    margin-bottom: 10px;
+    button{
+      border: 1px dashed dimgray;
+      color: black;
+      background: white;
+      height: 45px;
+      padding: 0 69px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+  }
+
+  .btn-group{
+    margin-bottom: 15px;
+    button {
+      &:first-child{
+        padding: 0 40px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #ff9800;
+        font-weight: bold;
+      }
+      &:last-child{
+        border: 1px dashed dimgray;
+        color: white;
+        background: black;
+        height: 45px;
+        padding: 0 69px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+    }
+  }
+  select{
+    width: 410px;
+    height: 35px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .next-prev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    p{
+      color: #d2cccc;
+      text-align: center;
+      font-size: 18px;
+      margin: 20px 55px;
+    }
+    i{
+      color: white;
+    }
+  }
+}
+
+

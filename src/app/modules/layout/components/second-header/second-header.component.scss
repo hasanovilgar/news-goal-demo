@@ -1,0 +1,28 @@
+.second-header{
+  background-color: black;
+  width: 100%;
+  min-height: 80px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+
+  .score-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    margin-bottom: 20px;
+    p {
+      margin: 0;
+      &:first-child{
+        margin-bottom: 10px;
+      }
+      &:last-child{
+        color: dimgrey;
+      }
+    }
+  }
+}

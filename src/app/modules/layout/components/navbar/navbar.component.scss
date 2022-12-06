@@ -1,0 +1,62 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 30px;
+    line-height: 50px;
+
+    white-space: nowrap;
+
+    &.active {
+      background-color: dimgrey;
+    }
+
+    &:hover {
+      background-color: dimgrey;
+    }
+
+    &.btn {
+      line-height: 40px;
+      border-radius: 20px;
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  background-color: black;
+  width: 100%;
+  min-height: 50px;
+}
+.input{
+  height: 50px;
+  border: none;
+  padding: 0 6px;
+  outline: none;
+  background: black;
+  font-size: 16px;
+  color: white;
+}
+.btn-search{
+  background: dimgrey;
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+.input-group{
+  display: flex;
+}

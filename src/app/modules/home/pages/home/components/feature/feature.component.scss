@@ -1,0 +1,53 @@
+.section-title{
+  color: red;
+  hr{
+    background-color: red;
+  }
+}
+.segment-control{
+  width: 100%;
+  overflow-x: auto;
+  a{
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-right: 25px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover,&.active{
+      background-color: #01a9c7;
+      color: white;
+    }
+  }
+}
+
+.news{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  img{
+    width: 230px;
+    height: 140px;
+  }
+  p{
+    width: 175px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+.btn{
+  text-align: center;
+  button{
+    border: 1px dashed dimgray;
+    color: black;
+    background: white;
+    height: 45px;
+    padding: 0 69px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+}

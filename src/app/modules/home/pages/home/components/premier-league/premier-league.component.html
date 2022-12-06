@@ -1,0 +1,37 @@
+<div class="section-title">
+  <h2>PREMIER LEAGUE</h2>
+  <hr>
+</div>
+<div class="news-group">
+  <div class="news">
+    <div>
+      <img src="assets/image/premier5.png" alt="">
+      <p>Neymar da Silva Santos Júnior</p>
+    </div>
+    <div>
+      <img src="assets/image/premier6.jpg" alt="">
+      <p>Diego Armando Maradona </p>
+    </div>
+    <div>
+      <img src="assets/image/premier7.jpg" alt="">
+      <p>Şahrudin Məhəmməd oğlu Məhəmmədəliyev</p>
+    </div>
+    <div>
+      <img src="assets/image/premier8.jpg" alt="">
+      <p>Karim Mostafa Benzema</p>
+    </div>
+  </div>
+  <div class="right-section">
+    <div class="premier-rows">
+      <div class="premier-row" *ngFor="let premier of premierLeagues">
+        <img src="{{premier.img}}" alt="">
+        <div class="premier-info">
+          <h2>{{premier.title}}</h2>
+          <label>{{premier.description}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header">
+    <p>Popular News</p>
+  </div>
+  <div class="card-body">
+    <div class="btn-group">
+      <button>Most Pop</button>
+      <button>No Most Pop</button>
+    </div>
+
+    <div class="popular-rows">
+      <div class="popular-row" *ngFor="let mens of popularMens">
+        <img src="{{mens.img}}" alt="">
+        <label>{{mens.description}}</label>
+      </div>
+    </div>
+  </div>
+</div>
